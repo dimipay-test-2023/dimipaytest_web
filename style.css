@@ -1,0 +1,132 @@
+div, header{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0px;
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 100%;
+    -ms-user-select: none; 
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.side-bar{
+    background-color: #FFF;
+    width: 340px;
+    height: 100%;
+    padding: 36px;
+}
+.main-container{
+    width: 80%;
+    position: relative;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+.logo img{
+    width: 156px;
+}
+.logo p{
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+    color: #46A7AF;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+}
+.side-sell{
+    margin-top: 20px;
+}
+.side-sell p{
+    color: #7C8585;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 17px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.side-manage{
+    margin-top: 40px;
+}
+.side-manage p{
+    color: #7C8585;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 17px;
+    cursor: pointer;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.main-header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 25px;
+    justify-content: flex-start;
+}
+.main-header p{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.main-header-div{
+    margin: auto;
+}
+.main-header-div button{
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: white;
+    cursor: pointer;
+}
+/* .main-header-div button img{
+    width: 20;
+    border: none;
+    position: relative;
+    top: 100px;
+} */
+.item-list{
+    margin-left: 50px;
+    margin-top: 17px;
+    background-color: #FFF;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0.5px gray;
+    width: 64%;
+    min-width: 600px;
+    text-align: start;
+    padding: 10px;
+}
+.item-list th{
+    text-align: start;
+    color: #7C8585;
+    font-weight: 600;
+    border-bottom: 0.5px solid rgb(226, 226, 226);
+    padding-bottom: 5px;
+}
+.item-list tr{
+    margin: 10px;
+}
+.item-list td{
+    font-weight: 600;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+input[type="checkbox"]{
+    zoom: 1.2;
+}
