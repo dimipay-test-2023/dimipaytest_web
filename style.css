@@ -156,6 +156,12 @@ input[type="checkbox"]{
     color: white;
     cursor: pointer;
     height: 35px;
+    background-color: #2EA4AB; 
+    box-shadow: 0px 0px 5px 0.1px #2EA4AB;
+}
+.main-footer button:active{
+    background-color: #266c70; 
+    box-shadow: 0px 0px 5px 0.1px #266c70;
 }
 .add-bar{
     width: 350px;
@@ -237,4 +243,10 @@ input[type="checkbox"]{
     height: 35px;
     width: 300px;
     margin-top: 20px;
+    background-color: #2EA4AB; 
+    box-shadow: 0px 0px 5px 0.1px #2EA4AB;
+}
+.add-bar button:active{
+    background-color: #266c70; 
+    box-shadow: 0px 0px 5px 0.1px #266c70;
 }
