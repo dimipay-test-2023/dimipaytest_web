@@ -31,7 +31,7 @@ html, body{
     width: 200px;
 }
 .side-sell{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .side-sell p{
     color: #7C8585;
@@ -56,45 +56,65 @@ html, body{
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-left: 50px;
-    margin-top: 25px;
-    justify-content: flex-start;
+    justify-content: flex-end;
+    align-items: center;
 }
 .main-header p{
     color: #000;
     font-size: 20px;
     font-weight: 600;
+    margin-right: auto;
 }
 .main-header-div{
-    margin: auto;
+    /* margin: auto; */
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
 }
 .main-header-div button{
     border: 0;
     border-radius: 10px;
     font-size: 15px;
-    padding: 8px;
+    padding: 5px;
     padding-left: 12px;
     padding-right: 12px;
+    margin: 5px;
     color: white;
     cursor: pointer;
+    height: 35px;
 }
-/* .main-header-div button img{
-    width: 20;
-    border: none;
-    position: relative;
-    top: 100px;
-} */
-.item-list{
+.main-frame{
+    width: 64%;
+    min-width: 700px;
+    height: 700px;
     margin-left: 50px;
-    margin-top: 17px;
-    background-color: #FFF;
+    margin-top: 25px;
+    /* background-color: #7C8585; */
+}
+.item-frame{
     border: 0;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0.5px gray;
-    width: 64%;
-    min-width: 600px;
+    width: 100%;
+    height: 550px;
+    margin-top: 17px;
+    overflow: auto;
+    background-color: #FFF;
+    /* -ms-overflow-style: none; */
+}
+/* .item-frame::-webkit-scrollbar{
+    display:none;
+} */
+.item-list{
+    background-color: #FFF;
+    border: 0;
+    width: 100%;
+    border-radius: 10px;
     text-align: start;
     padding: 10px;
+    white-space: nowrap;
+    overflow: auto;
 }
 .item-list th{
     text-align: start;
@@ -102,9 +122,11 @@ html, body{
     font-weight: 600;
     border-bottom: 0.5px solid rgb(226, 226, 226);
     padding-bottom: 5px;
+    padding-right: 20px;
 }
 .item-list tr{
     margin: 10px;
+    min-width: 500px;
 }
 .item-list td{
     font-weight: 600;
