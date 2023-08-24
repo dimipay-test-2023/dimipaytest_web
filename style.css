@@ -137,3 +137,104 @@ html, body{
 input[type="checkbox"]{
     zoom: 1.2;
 }
+.main-footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+}
+.main-footer button{
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+    height: 35px;
+}
+.add-bar{
+    width: 350px;
+    height: 100%;
+    background-color: #FFF;
+    padding: 25px;
+    position: absolute;
+    right: 0;
+}
+.add-bar header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.add-bar header h3{
+    margin-right: auto;
+    font-size: 23px;
+    font-weight: 600;
+}
+.add-bar header img{
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+.add-bar h4{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 17px;
+}
+.add-bar div{
+    width: 300px;
+    border: 2px solid #D3D5D5;
+    border-radius: 12px;
+    background-color: #F4F5F5;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 90px;
+}
+.add-bar div p{
+    font-size: 14px;
+    color: #878787;
+    font-weight: 600;
+    margin: 0;
+    margin-left: 2px;
+}
+.add-bar div input{
+    margin-top: 12px;
+    border: 0;
+    background-color: #F4F5F5;
+    font-size: 20px;
+    box-sizing: border-box;
+    font-weight: 600;
+    width: 100%;
+}
+.add-bar div input::placeholder{
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.add-bar div input:focus { 
+    outline: none; 
+}
+.add-bar h5{
+    color: #CACACA;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.add-bar button{
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: white;
+    cursor: pointer;
+    height: 35px;
+    width: 300px;
+    margin-top: 20px;
+}
