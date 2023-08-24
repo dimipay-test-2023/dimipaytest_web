@@ -19,30 +19,16 @@ html, body{
 }
 .side-bar{
     background-color: #FFF;
-    width: 340px;
+    width: 280px;
     height: 100%;
-    padding: 36px;
+    padding: 40px;
 }
 .main-container{
     width: 80%;
     position: relative;
 }
 .logo{
-    display: flex;
-    justify-content: center;
-    width: auto;
-}
-.logo img{
-    width: 156px;
-}
-.logo p{
-    margin: auto;
-    margin-left: 0;
-    margin-right: 0;
-    color: #46A7AF;
-    font-size: 26px;
-    font-weight: 400;
-    text-align: center;
+    width: 200px;
 }
 .side-sell{
     margin-top: 20px;
@@ -51,7 +37,6 @@ html, body{
     color: #7C8585;
     font-size: 17px;
     font-weight: 600;
-    margin-left: 17px;
     margin-bottom: 0;
     margin-top: 15px;
     cursor: pointer;
@@ -63,7 +48,6 @@ html, body{
     color: #7C8585;
     font-size: 17px;
     font-weight: 600;
-    margin-left: 17px;
     cursor: pointer;
     margin-bottom: 0;
     margin-top: 15px;
