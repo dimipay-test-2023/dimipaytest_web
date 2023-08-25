@@ -66,8 +66,9 @@ function del_List(){
     const tr = document.querySelectorAll('tr');
     for (let i=tr.length-1; i>0; i--){
         console.log(tr[i].firstElementChild.firstChild.checked);
-        if (tr[i].firstElementChild.firstElementChild.checked = true){
+        if (tr[i].firstElementChild.firstElementChild.checked == true){
             tr[i].remove();
+            continue;
         }
     }
 
